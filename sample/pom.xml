@@ -193,5 +193,18 @@
             </build>
         </profile>
     </profiles>
-    
+    <repositories>  
+    <repository>  
+      <id>maven-net-cn</id>  
+      <name>Maven China Mirror</name>  
+      <url>http://192.168.31.140:8081/repository/maven-public/</url>  
+    </repository>  
+  </repositories>  
+  <pluginRepositories>  
+    <pluginRepository>  
+      <id>maven-net-cn</id>  
+      <name>Maven China Mirror</name>  
+      <url>http://192.168.31.140:8081/repository/maven-public/</url>   
+    </pluginRepository>  
+  </pluginRepositories>
 </project>
